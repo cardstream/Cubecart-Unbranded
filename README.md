@@ -18,7 +18,6 @@ This Cubecart module provides an easy method to integrate with the payment gatew
 
 - The module requires the following prerequisites to be met in order to function correctly:
     - For a full list of requirements please see: https://www.cubecart.com/hosting-requirements
-    - SSL **NB: HTTPS is expected to be in place as the payment gateway will respond over SSL when integrating directly. Failure to provide an environment where HTTPS traffic is possible, will result in the 3DSv2 payment flow failing***
 
 > Please note that we can only offer support for the Module itself. While every effort has been made to ensure the payment module is complete and bug free, we cannot guarentee normal functionality if unsupported changes are made.
 
@@ -35,6 +34,7 @@ To rebrand this module, complete the following steps:
 4. In file `httpdocs/modules/gateway/PaymentNetwork/config.xml` change the following:
 	- Line 4: `	<uid>gateway-payment-network@cubecart.com</uid>` to your support email
 	- Line 8: `<description><![CDATA[Payment Network Payment Gateway]]></description>` changing Payment Network Payment Gateway to your brand name
+5. When downloading as a zip file, you can right-click and rename to remove the `Unbranded` text from the filename.
 
 
 # Installing and configuring the module
