@@ -39,11 +39,11 @@ To rebrand this module, complete the following steps:
 
 # Installing and configuring the module
 
-1. Copy the contents of the httpdocs into your root directory of CubeCart. If you are prompted to overwrite or merge files, select 'Yes' to all.
+1. Copy the contents of the httpdocs into your root directory of CubeCart. If you are prompted to overwrite or merge files, click 'Yes' to all.
 2. Login to the Admin panel of your CubeCart Shop.
-3. Select 'Payment Gateway' under the 'Module' subheading in the left hand menu.
-4. Look for PaymentNetwork and select the checkbox to the left of the logo. Scroll down and click save.
-5. From the same screen, select the edit icon to the right of the PaymentNetwork module. Ensure that the 'Status' and 'Default' boxes are checked. Your payment gateway URL should correctly be set to 'https://gateway.example.com/hosted/' by default. Fill in the relevant information in the boxes shown and select 'save'.
+3. Click 'Payment Gateway' under the 'Module' subheading in the left hand menu.
+4. Look for PaymentNetwork and click the checkbox to the left of the logo. Scroll down and click 'save'.
+5. From the same screen, click the 'edit' icon to the right of the PaymentNetwork module. Ensure that the 'Status' and 'Default' boxes are checked. Your payment gateway URL should correctly be set to 'https://gateway.example.com/hosted/' by default. Fill in the relevant information in the boxes shown and click 'save'.
 6. Your PaymentNetwork payment module is now installed!
 
 License
