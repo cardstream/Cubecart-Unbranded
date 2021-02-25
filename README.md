@@ -10,9 +10,9 @@
 
 # Introduction
 
-This Cubecart module provides an easy method to integrate with the payment gateway.
- - The httpdocs directory contains the files that need to be uploaded to the root directory of where Cubecart is installed
- - Supports CS Cart versions: **4.x+**
+This CubeCart module provides an easy method to integrate with the payment gateway.
+ - The httpdocs directory contains the files that need to be uploaded to the root directory of where CubeCart is installed
+ - Supports CubeCart versions: **4.x+**
 
 # Prerequisites
 
