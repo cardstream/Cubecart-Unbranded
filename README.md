@@ -26,11 +26,11 @@ This CubeCart module provides an easy method to integrate with the payment gatew
 To rebrand this module, complete the following steps:
 
 1. In file `httpdocs/modules/gateway/PaymentNetwork/gateway.class.php` change the following:
-	- Line 7: `const API_ENDPOINT_HOSTED = 'https://gateway.example.com/hosted/';` changing gateway.example.com to your gateway URL
+	- Line 7: `const API_ENDPOINT_HOSTED = 'https://gateway.example.com/hosted/';` change this URL to your gateway URL we supply
 2. Replace the logo.gif with your own logo in directory: `httpdocs/modules/gateway/PaymentNetwork/admin/`
 3. In file `httpdocs/modules/gateway/PaymentNetwork/language/module.definitions.xml` change the following:
-	- Line 11: `<string name="payment_page_url_default"><![CDATA[e.g. https://gateway.example.com/hosted/]]></string>` changing gateway.example.com to your gateway URL
-	- Line 12: `<string name="payment_page_url_default_value"><![CDATA[https://gateway.example.com/hosted/]]></string>` changing gateway.example.com to your gateway URL
+	- Line 11: `<string name="payment_page_url_default"><![CDATA[e.g. https://gateway.example.com/hosted/]]></string>` change this URL to your gateway URL we supply
+	- Line 12: `<string name="payment_page_url_default_value"><![CDATA[https://gateway.example.com/hosted/]]></string>` change this URL to your gateway URL we supply
 4. In file `httpdocs/modules/gateway/PaymentNetwork/config.xml` change the following:
 	- Line 4: `	<uid>gateway-payment-network@cubecart.com</uid>` to your support email
 	- Line 8: `<description><![CDATA[Payment Network Payment Gateway]]></description>` changing Payment Network Payment Gateway to your brand name
